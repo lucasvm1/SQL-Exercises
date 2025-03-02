@@ -1,32 +1,30 @@
-# Exercícios SQL
+# 📂 Exercícios de SQL
 
-Este repositório contém exercícios de prática em SQL, abordando diferentes conceitos da linguagem. Os exercícios estão organizados em arquivos numerados, seguindo uma progressão lógica.
+## 🔍 Sobre este Repositório
+Este repositório contém uma coleção de exercícios práticos de **bancos de dados SQL**. Cada exercício aborda um conceito fundamental, como **criação de tabelas, manipulação de dados, consultas simples e avançadas, índices e views**.  
 
-## Estrutura
+O objetivo é consolidar o aprendizado sobre **SQL**, praticando desde as operações básicas até técnicas mais avançadas para otimização e organização dos dados.
 
-Os arquivos SQL estão divididos da seguinte forma:
+## 🚀 Exercícios Implementados
 
-1. **Criação de DB e Tabelas (`01- Criação de DB e Tabelas.sql`)**  
-   - Define a estrutura do banco de dados e suas tabelas.  
+1. **📊 Criação de Banco de Dados e Tabelas** - Define a estrutura do banco de dados, tabelas e suas relações (`PRIMARY KEY`, `FOREIGN KEY`).  
+2. **📥 Inserção de Dados** - Insere registros de exemplo respeitando as restrições do banco.  
+3. **🔎 Consultas Simples** - Busca dados de uma tabela usando `SELECT`, `WHERE` e `ORDER BY`.  
+4. **📊 Consultas Avançadas** - Utiliza `JOIN`, `GROUP BY`, `HAVING` e funções agregadas (`SUM()`, `AVG()`, `COUNT()`).  
+5. **📝 Atualização e Remoção de Dados** - Modifica registros com `UPDATE` e remove com `DELETE`.  
+6. **⚡ Índices** - Criação e uso de índices para otimizar consultas.  
+7. **📑 Views** - Definição de `VIEWs` para simplificar e organizar consultas complexas.  
 
-2. **Inserção de Dados (`02- Inserção de Dados.sql`)**  
-   - Popula as tabelas com dados de exemplo para testes.  
+## 🛠️ Tecnologias Utilizadas
+- **MySQL** 🐬 (versão utilizada: [colocar versão, se desejar])  
+- **Comandos DDL (Data Definition Language) - `CREATE`, `ALTER`, `DROP`**  
+- **Comandos DML (Data Manipulation Language) - `SELECT`, `INSERT`, `UPDATE`, `DELETE`**  
+- **Otimização com `INDEX`**  
+- **Organização de consultas com `VIEW`**  
 
-3. **Consultas Simples (`03- Select Simples.sql`)**  
-   - Exercícios básicos de recuperação de dados.  
-
-4. **Consultas Avançadas (`04- Consultas Avançadas.sql`)**  
-   - Uso de `JOIN`, `GROUP BY`, `HAVING`, `ORDER BY` e outras funções SQL mais complexas.  
-
-5. **Atualização de Dados (`05- Update.sql`)**  
-   - Modificação e exclusão de registros com `UPDATE` e `DELETE`.  
-
-6. **Índices (`06- Index.sql`)**  
-   - Criação e uso de índices para otimizar consultas.  
-
-7. **Views (`07- View.sql`)**  
-   - Criação de `VIEWs` para facilitar consultas complexas.  
-
-## Objetivo
-
-Os exercícios foram desenvolvidos para reforçar os principais conceitos de SQL, cobrindo desde a criação do banco de dados até consultas avançadas.
+## 📌 Aprendizados
+✔️ Modelagem e criação de **estruturas de banco de dados**.  
+✔️ Manipulação eficiente de **dados com SQL**.  
+✔️ Uso de **funções agregadas e joins** para consultas avançadas.  
+✔️ Aplicação de **índices para otimizar desempenho**.  
+✔️ Organização de consultas complexas com **views**.  
